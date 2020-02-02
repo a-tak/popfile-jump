@@ -1,0 +1,25 @@
+{
+
+  "manifest_version": 2,
+  "name": "Popfile Jump",
+  "version": "1.0",
+
+  "description": "Popfileのリンクを開く拡張機能です",
+  "homepage_url": "https://github.com/a-tak/tnunderbird-extension-training/thundertest",
+  "icons": {
+    "48": "icons/beasts-48.png"
+  },
+
+  "permissions": [
+    "messagesRead"
+  ],
+
+  "browser_action": {
+    "default_icon": "icons/beasts-32.png",
+    "default_title": "Popflie Jump"
+  },
+
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
