@@ -1,5 +1,28 @@
 # popfile-jump
+
 ThunderbirdからPopfileのメール振り分け画面に飛ぶボタンを追加するアドオン
+
+## ビルド
+
+--overwrite-destをつけないと2回目のビルド以降更新されない
+
+```bash
+web-ext build --overwrite-dest  
+```
+
+## Linter
+
+インストール
+
+```bash
+npm install -g addons-linter
+```
+
+実行
+
+```bash
+addons-linter web-ext-artifacts/popfile_jump-1.0.zip
+```
 
 ## MacからPopfileをアンインストールする
 
