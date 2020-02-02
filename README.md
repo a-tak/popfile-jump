@@ -1,0 +1,2 @@
+# popfile-jump
+ThunderbirdからPopfileのメール振り分け画面に飛ぶボタンを追加するアドオン
