@@ -1,2 +1,10 @@
 # popfile-jump
 ThunderbirdからPopfileのメール振り分け画面に飛ぶボタンを追加するアドオン
+
+## MacからPopfileをアンインストールする
+
+公式にはインストーラーに含まれているuninstall-popfileを実行する旨記載あるが、Macの最近のバージョンではこのスクリプトが実行出来ない。
+
+dmgをマウントしてutilitiesにあるuninstall-popfileを右クリックしてパッケージの内容を表示を選び、/Contents/Resources/Scripts/main.scptを開く
+
+AppleScriptの実行エディタが出るので再生ボタンを押すと良い
