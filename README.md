@@ -10,6 +10,8 @@ ThunderbirdからPopfileのメール振り分け画面に飛ぶボタンを追�
 web-ext build --overwrite-dest  
 ```
 
+Addonとして公開する場合は同じバージョンはアップし直せないので、manifest.jsonのバージョンを変えること
+
 ## Linter
 
 インストール
