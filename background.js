@@ -3,7 +3,7 @@ async function execute() {
   
   messages.messages.forEach(async (message) => {
     messagePart = await browser.messages.getFull(message.id)
-    messagePart.headers['x-popfile-link'].forEach(async (link) => {
+    messagePart.headers['x-popfile-link'].forEach((link) => {
       browser.tabs.create({
         url: link
       })
