@@ -27,5 +27,11 @@
 
   "background": {
     "scripts": ["background.js"]
+  },
+  "commands": {
+    "toggle-feature": {
+      "suggested_key": { "default": "Ctrl+Alt+P" },
+      "description": "POPFile Jumpの呼び出し"
+    }
   }
 }

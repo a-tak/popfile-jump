@@ -13,3 +13,7 @@ async function execute() {
 
 // エントリーポイント
 browser.browserAction.onClicked.addListener(execute)
+
+browser.commands.onCommand.addListener((command) => {
+  execute()
+})
