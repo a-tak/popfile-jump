@@ -30,7 +30,7 @@
   },
   "commands": {
     "toggle-feature": {
-      "suggested_key": { "default": "Ctrl+Alt+P" },
+      "suggested_key": { "default": "Alt+Shift+P" },
       "description": "POPFile Jumpの呼び出し"
     }
   }
